@@ -34,7 +34,7 @@ a {
 }
 
 #section1 {
-  position: relative; /* Kyle Ryu p태그 가운데 정렬 때문에 필요 */
+  position: relative; /* #name 가운데 정렬 때문에 필요 */
 }
 
 #section1 #inner {
