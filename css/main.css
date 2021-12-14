@@ -66,7 +66,7 @@ a {
   position: fixed;
   left: 50%;
   animation: line_loading;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out;
 }
 
@@ -211,10 +211,12 @@ body {
 
 @keyframes line_loading {
   0% {
+    opacity: 0;
     transform: translateY(-150%);
   }
 
   100% {
+    opacity: 1;
     transform: translateY(0);
   }
 }
