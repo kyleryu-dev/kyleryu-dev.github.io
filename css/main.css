@@ -23,6 +23,7 @@ a {
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #inner {
@@ -31,10 +32,6 @@ a {
   height: 90vh;
   border: 3px solid #fff;
   position: relative;
-}
-
-#section1 {
-  position: relative; /* #name 가운데 정렬 때문에 필요 */
 }
 
 #section1 #inner {
@@ -54,9 +51,6 @@ a {
   font-size: 113px;
   font-weight: 900;
   text-shadow: 2px 6px 8px #000;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
   display: none;
 }
 
