@@ -67,8 +67,18 @@ a {
   position: fixed;
   left: 50%;
   animation: line_loading;
-  animation-duration: 2.5s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out;
+}
+
+#job {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
 }
 
 #circle {
@@ -161,7 +171,7 @@ body {
     height: 320px;
   }
 
-  #section1 p {
+  #name {
     font-size: 90px;
     text-shadow: 2px 3px 5px #000;
   }
@@ -183,9 +193,17 @@ body {
     width: 80vw;
   }
 
-  #section1 p {
+  #name {
     font-size: 42px;
     text-shadow: 2px 3px 5px #000;
+  }
+
+  #job {
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
   }
 
   #sun {
@@ -213,10 +231,6 @@ body {
 @keyframes line_loading {
   0% {
     opacity: 0;
-    transform: translateY(-150%);
-  }
-
-  25% {
     transform: translateY(-100%);
   }
 

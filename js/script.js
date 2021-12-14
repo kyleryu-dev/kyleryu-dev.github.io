@@ -1,6 +1,6 @@
 $(function() {
 
-  $('#name').fadeIn(800);
+  $('#name').fadeIn(1000);
 
   $(window).scroll(function() {
     if($(window).scrollTop() > 500) {
