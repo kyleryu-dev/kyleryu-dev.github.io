@@ -1,8 +1,7 @@
 $(function() {
 
-  $('#name').hide();
   setTimeout(function() {
-    $('#name').show();
+    $('#name').css('visibility','visible');
     $('#name').css('opacity','1');
   },1800);
 
