@@ -1,6 +1,6 @@
 $(function() {
 
-  $('#name').css('opacity','0');
+  $('#name').hide().fadeIn();
   setTimeout(function() {
     $('#name').css('opacity','1');
   },1800);
