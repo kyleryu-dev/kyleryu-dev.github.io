@@ -1,11 +1,10 @@
 $(function() {
 
-  $('#name').hide().fadeIn();
+  $('#name').hide();
   setTimeout(function() {
+    $('#name').show();
     $('#name').css('opacity','1');
   },1800);
 
-  $(window).scroll(function() {
-    
-  });
+
 });
