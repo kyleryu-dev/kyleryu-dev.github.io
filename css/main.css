@@ -57,6 +57,7 @@ a {
 .wrap_box {
   position: sticky;
   top: 0;
+  transition : all 0.2s
 }
 
 #section1, #section2, #section3, #section4 {
