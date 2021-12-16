@@ -12,18 +12,18 @@ $(function() {
     console.log(height);
 
     /* section opacity */
-    var a =  -1/934 * height + 1;
-    $('.wrap_box').eq(0).css('opacity', a);
+    var a = -1/934 * height + 1;
+    $('.wrap_box').eq(0).css('opacity',a);
 
-    var b =  -1/938 * height + 936/469;
-    $('.wrap_box').eq(1).css('opacity', b);
+    var b = -1/938 * height + 936/469;
+    $('.wrap_box').eq(1).css('opacity',b);
 
-    var c =  -1/939 * height + 937/313;
-    $('.wrap_box').eq(2).css('opacity', c);
+    var c = -1/939 * height + 937/313;
+    $('.wrap_box').eq(2).css('opacity',c);
 
-    /* section first scale */
+    /* section1 scale */
     var x = (-1/9340) * height + 1;
-    $('.wrap_box').eq(0).css('transform', `scale( ${x} )`);
+    $('.wrap_box').eq(0).css('transform',`scale( ${x} )`);
 
     /* pc scroll_bar Animation */
     if($(window).scrollTop() > 2800) {
@@ -44,24 +44,25 @@ $(function() {
       }
 
       /* mobile section opacity */
-      var a =  -1/668 * height + 1;
-      $('.wrap_box').eq(0).css('opacity', a);
+      var a = -1/668 * height + 1;
+      $('.wrap_box').eq(0).css('opacity',a);
 
-      var b =  -1/666 * height + 445/222;
-      $('.wrap_box').eq(1).css('opacity', b);
+      var b = -1/666 * height + 445/222;
+      $('.wrap_box').eq(1).css('opacity',b);
 
-      var c =  -1/665 * height + 2001/665;
-      $('.wrap_box').eq(2).css('opacity', c);
+      var c = -1/665 * height + 2001/665;
+      $('.wrap_box').eq(2).css('opacity',c);
 
-      /* section first scale */
+      /* section1 scale */
       var x = (-1/6680) * height + 1;
-      $('.wrap_box').eq(0).css('transform', `scale( ${x} )`);
-
-
+      $('.wrap_box').eq(0).css('transform','scale( ${x} )');
 
     }
+    /* //media Query */
 
   });
+  /* //scroll function */
 
 
 });
+/* //ready function */
