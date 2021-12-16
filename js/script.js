@@ -26,7 +26,7 @@ $(function() {
     $('.wrap_box').eq(0).css('transform',`scale( ${x} )`);
 
     /* pc scroll_bar Animation */
-    if($(window).scrollTop() > 2800) {
+    if($(window).scrollTop() > 2600) {
       $('#scroll_bar').css('animation-direction','reverse');    
     } else {
       $('#scroll_bar').css('animation-direction','normal');
