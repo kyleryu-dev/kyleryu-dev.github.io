@@ -24,6 +24,7 @@ a {
   position: fixed;
   top: 60%;
   right: 25px;
+  z-index: 9999;
 }
 
 #scroll_text {
@@ -48,6 +49,16 @@ a {
 }
 
 /* basis */
+#wrap {
+  width: 100vw;
+  height: 400vh;
+}
+
+.wrap_box {
+  position: sticky;
+  top: 0;
+}
+
 #section1, #section2, #section3, #section4 {
   width: 100vw;
   height: 100vh;
@@ -89,7 +100,7 @@ a {
   width: 1px;
   height: 100vh;
   border: 1px solid #fff;
-  position: fixed;
+  position: absolute;
   left: 50%;
   will-change: transform;
   animation: line_loading;
