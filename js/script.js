@@ -11,6 +11,9 @@ $(function() {
     var height = $(window).scrollTop();
     console.log(height);
 
+    var y =  -1/500 * height + 115/50;
+    $('.wrap_box').eq(0).css('opacity', y);
+
     /* pc scroll_bar Animation */
     if($(window).scrollTop() > 2800) {
       $('#scroll_bar').css('animation-direction','reverse');    
