@@ -9,7 +9,7 @@ $(function() {
 
     /* height 추출 */
     var height = $(window).scrollTop();
-    console.log(height);
+    // console.log(height);
 
     /* section opacity */
     var a = -1/934 * height + 1;
