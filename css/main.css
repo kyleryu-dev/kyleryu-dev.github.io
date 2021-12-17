@@ -8,6 +8,10 @@
   color: #fff;
 }
 
+html {
+  scroll-behavior: smooth; 
+}
+
 li {
   list-style: none;
 }
@@ -19,6 +23,28 @@ a {
 }
 
 /* [ layout ] */
+
+/* chapter */
+#chapter {
+  position: fixed;
+  top: 27%;
+  right: 40px;
+  z-index: 9999;
+}
+
+#chapter_circle a {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 30px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+#chapter_circle a:hover {
+  opacity: 0.8;
+}
+
 /* scroll */
 #scroll {
   position: fixed;
@@ -241,6 +267,22 @@ body {
 
 @media screen and ( max-width: 720px ) {
 
+  /* chapter */
+  #chapter {
+    position: fixed;
+    top: 17%;
+    right: 15px;
+    z-index: 9999;
+  }
+
+  #chapter_circle a {
+    width: 17px;
+    height: 17px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    background-color: #fff;
+  }
   /* scroll */
   #scroll {
     position: fixed;
