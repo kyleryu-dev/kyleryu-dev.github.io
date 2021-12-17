@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/
+Sitemap: https://kyleryu-dev.github.io/sitemap.xml
