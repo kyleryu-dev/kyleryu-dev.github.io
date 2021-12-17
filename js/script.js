@@ -32,7 +32,16 @@ $(function() {
       $('#scroll_bar').css('animation-direction','normal');
     }
 
-    /* media Query */
+    /* media Query - tablet */
+    var windowWidth = window.matchMedia("screen and (max-width: 1200px)");
+    if (windowWidth.matches) {
+
+
+
+    }
+    /* //media Query - tablet */
+
+    /* media Query - mobile */
     var windowWidth = window.matchMedia("screen and (max-width: 768px)");
     if (windowWidth.matches) {
 
@@ -58,7 +67,9 @@ $(function() {
       $('.wrap_box').eq(0).css('transform','scale( ${x} )');
 
     }
-    /* //media Query */
+    /* //media Query - mobile */
+
+
 
   });
   /* //scroll function */
