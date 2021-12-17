@@ -1,5 +1,14 @@
 $(function() {
 
+  /* chapter scroll */
+  $("#btn1").click(function(){
+    $("html ").animate({scrollTop:$("#section1").offset().top},1000);
+  });
+    
+  $("#btn2").click(function(){
+    $("html").animate({scrollTop:$("#section2").offset().top},1000);
+    });
+
   setTimeout(function() {
     $('#name').css('visibility','visible');
     $('#name').css('opacity','1');
