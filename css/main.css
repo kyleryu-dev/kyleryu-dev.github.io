@@ -206,6 +206,27 @@ body {
 /* media Query */
 @media screen and ( max-width: 1200px ) {
 
+  /* scroll */
+  #scroll {
+    position: fixed;
+    top: 60%;
+    right: -10px;
+  }
+
+  #scroll_text {
+    position: absolute;
+    right: 10px;
+    font-size: 16px;
+  }
+
+  #scroll_bar {
+    top: 50px;
+    right: 30px;
+    width: 1px;
+    height: 60px;
+    border: 1px solid #fff;
+  }
+
   #circle {
     width: 320px;
     height: 320px;
